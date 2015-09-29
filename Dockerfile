@@ -7,7 +7,8 @@ MAINTAINER Bradley Bossard <bradleybossard@gmail.com>
 # Fire up an instance with a bash shell
 # docker run --rm -i -t docker-node-devbox
 
-RUN apt-get install -y nodejs-legacy \
-                       npm
+RUN curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
+RUN apt-get install --yes nodejs
 
-RUN npm install gulp bower
+RUN npm install -g gulp bower
+
