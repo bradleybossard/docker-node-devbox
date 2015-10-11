@@ -1,4 +1,4 @@
-FROM bradleybossard/docker-devbox-common
+FROM bradleybossard/docker-common-devbox
 MAINTAINER Bradley Bossard <bradleybossard@gmail.com>
 
 # Build the image
