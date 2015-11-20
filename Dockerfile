@@ -28,10 +28,3 @@ RUN npm install -g gulp \
                    grunt \
                    grunt-cli \
                    bower
-
-RUN npm set init-author-name 'Bradley Bossard'
-RUN npm set init-author-email 'bradleybossard@gmail.com'
-RUN npm set init-author-url 'http://bradleybossard.com'
-RUN npm set init-license 'MIT'
-
-
