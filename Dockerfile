@@ -9,7 +9,8 @@ MAINTAINER Bradley Bossard <bradleybossard@gmail.com>
 
 ENV USER root
 
-RUN curl -sL https://deb.nodesource.com/setup_0.12 | bash -
+#RUN curl -sL https://deb.nodesource.com/setup_0.12 | bash -
+RUN curl -sL https://deb.nodesource.com/setup_4.x | bash -
 
 RUN apt-get install -y python \
                        gcc \
@@ -24,6 +25,3 @@ RUN npm install -g gulp \
                    grunt-cli \
                    bower \
                    semantic-release-cli
-
-#RUN mkdir -p /root/.node-gyp/0.12.9
-#RUN chmod -R 777 /root/.node-gyp
