@@ -11,4 +11,4 @@ RUN curl -sL https://deb.nodesource.com/setup_5.x | bash -
 
 RUN apt-get install -y nodejs
 
-RUN npm install -g webpack
+RUN npm install -g webpack webpack-dev-server jspm
