@@ -23,4 +23,5 @@ RUN npm install -g webpack \
                    nativescript \
                    nodemon \
                    eslint \
-                   browserify
+                   browserify \
+                   watchify
