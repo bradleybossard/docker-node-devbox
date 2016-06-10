@@ -17,6 +17,8 @@ libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++
 RUN npm install -g webpack \
                    webpack-dev-server \
                    bower \
+                   gulp \
+                   grunt \
                    node-inspector \
                    jspm \
                    live-server \
