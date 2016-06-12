@@ -23,6 +23,7 @@ RUN npm install -g webpack \
                    jspm \
                    live-server \
                    typescript \
+                   typings \
                    nativescript \
                    nodemon \
                    eslint \
