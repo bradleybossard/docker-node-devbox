@@ -28,4 +28,5 @@ RUN npm install -g webpack \
                    nodemon \
                    eslint \
                    browserify \
-                   watchify
+                   watchify \
+                   babelify
